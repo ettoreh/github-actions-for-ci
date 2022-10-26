@@ -28,7 +28,5 @@ jobs:
       - name: Run markdown lint
         run: |
           npm install remark-cli remark-preset-lint-consistent
-          npx remark . --use remark-preset-lint-consistent --frail
-          npm install remark-lint-emphasis-marker
-          remark -u lint -u lint-emphasis-marker README.md
+          npx remark . --use remark-preset-lint-consistent --_underscore_
 
