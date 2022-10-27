@@ -223,7 +223,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 
 1. Click **Merge pull request**.
 1. Delete the branch `ci` (optional).
-1. _Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the "finish" on your own._
+1. __Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the "finish" on your own.__
 
 <!-- Wait about 20 seconds then refresh this page for the next step. -->
 
